@@ -4,10 +4,10 @@
     background-size: cover;
     opacity: 0.5;
     position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .slide2::before {
@@ -16,10 +16,10 @@
     background-size: cover;
     opacity: 0.5;
     position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .slide3::before {
@@ -28,8 +28,18 @@
     background-size: cover;
     opacity: 0.5;
     position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.main_logo {
+    height: 80px;
+}
+
+@media (max-width: 767px) {
+    .main_logo {
+        height: 40px;
+    }
 }
