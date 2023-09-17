@@ -1,0 +1,35 @@
+.slide1::before {
+    content: "";
+    background: url(/assets/images/img1.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.slide2::before {
+    content: "";
+    background: url(/assets/images/img2.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.slide3::before {
+    content: "";
+    background: url(/assets/images/img3.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
