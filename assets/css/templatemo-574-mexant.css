@@ -613,6 +613,7 @@ header
     transition: all 0s ease 0s;
     margin-left: 0px;
   }
+
   .header-area .main-nav .nav li:first-child {
     border-top: 1px solid #eee;
   }
@@ -1714,6 +1715,11 @@ body {
 }
 
 @media (max-width: 767px) {
+  :root {
+    --swiper-navigation-size : 30px;
+  }
+
+
   .header-area .main-nav .logo {
     line-height: 100px;
   }
@@ -1723,12 +1729,34 @@ body {
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     display: none;
   }
+
+  .slide-inner .header-text buttons {
+    margin-top: 100px;
+  }
+
+  .slide-inner .header-text h2 {
+    position: relative;
+    z-index: 2;
+    font-size: 27px;
+    color: #fff;
+    font-weight: 700;
+    opacity: 1;
+    visibility: visible;
+    line-height: 35px;
+    margin-bottom: 40px;
+    margin-top: 130px;
+  }
+
   .slide-inner .header-text p {
-    display: none;
+    font-size: 9px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
   }
   .slide-inner .header-text {
     text-align: center;
     width: 80%;
+    height: 60%;
     margin-left: 10%;
     margin-right: 10%;
   }

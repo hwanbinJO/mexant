@@ -42,4 +42,44 @@
     .main_logo {
         height: 40px;
     }
+
+    .slide1::before {
+        content: "";
+        background: url(../images/img1.jpg);
+        background-size: cover;
+        background-position: 80% center;
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .slide2::before {
+        content: "";
+        background: url(../images/img2.jpg);
+        background-size: cover;
+        background-position: 40% center;
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .slide3::before {
+        content: "";
+        background: url(../images/img3.jpg);
+        background-size: cover;
+        background-position: 60% center;
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
 }
