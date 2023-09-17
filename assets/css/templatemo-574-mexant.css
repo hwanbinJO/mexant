@@ -1651,7 +1651,7 @@ body {
   }
   section.about-us .naccs .menu div,
   section.service-details .naccs .menu div {
-    margin-right: 15px;
+    margin: 10px;
     font-size: 15px;
     padding: 15px 20px;
   }
