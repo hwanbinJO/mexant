@@ -1,6 +1,6 @@
 .slide1::before {
     content: "";
-    background: url(/assets/images/img1.jpg);
+    background: url(../images/img1.jpg);
     background-size: cover;
     opacity: 0.5;
     position: absolute;
@@ -12,7 +12,7 @@
 
 .slide2::before {
     content: "";
-    background: url(/assets/images/img2.jpg);
+    background: url(../images/img2.jpg);
     background-size: cover;
     opacity: 0.5;
     position: absolute;
@@ -24,7 +24,7 @@
 
 .slide3::before {
     content: "";
-    background: url(/assets/images/img3.jpg);
+    background: url(../images/img3.jpg);
     background-size: cover;
     opacity: 0.5;
     position: absolute;
