@@ -753,7 +753,7 @@ banner
   opacity: 1;
   visibility: visible;
   line-height: 70px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .slide-inner .header-text .div-dec {
@@ -1641,7 +1641,7 @@ body {
     background-color: #212741;
   }
   .slide-inner .header-text {
-    width: 80%;
+    width: 75%;
   }
   .simple-cta {
     text-align: center;
@@ -1714,20 +1714,34 @@ body {
   }
 }
 
-@media (max-width: 767px) {
-  :root {
-    --swiper-navigation-size : 30px;
+
+
+@media (max-width: 540px) {
+
+  .swiper-container .swiper-button-next:after, .swiper-container .swiper-button-prev:after {
+    font-size:15px;
   }
 
+  .header-area {
+    height: 60px
+  }
+
+  .header-area .main-nav .menu-trigger {
+    top: 26px;
+  }
 
   .header-area .main-nav .logo {
-    line-height: 100px;
+    line-height: 80px;
   }
   .background-header .main-nav .logo {
     line-height: 80px;
   }
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     display: none;
+  }
+
+  .slide-inner .header-text {
+    top: 30%;
   }
 
   .slide-inner .header-text buttons {
@@ -1737,13 +1751,13 @@ body {
   .slide-inner .header-text h2 {
     position: relative;
     z-index: 2;
-    font-size: 27px;
+    font-size: 24px;
     color: #fff;
     font-weight: 700;
     opacity: 1;
     visibility: visible;
     line-height: 35px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     margin-top: 130px;
   }
 
@@ -1757,12 +1771,13 @@ body {
     text-align: center;
     width: 80%;
     height: 60%;
-    margin-left: 10%;
+    margin-left: 9%;
     margin-right: 10%;
   }
   .slide-inner .header-text .div-dec {
     margin-left: auto;
     margin-right: auto;
+    display: none;
   }
   .slide-inner .header-text .buttons {
     display: inline-flex;
@@ -1792,3 +1807,31 @@ body {
     padding: 50px;
   }
 }
+
+@media (max-height: 900px) {
+  .slide-inner .header-text h2 {
+    margin-top: 260px;
+  }
+
+  .slide-inner .header-text p {
+    margin-top: 76px;
+  }
+}
+
+@media (max-height: 700px) {
+  .main_logo {
+    height: 40px;
+  }
+
+  .slide-inner .header-text h2 {
+    margin-top: 160px;
+  }
+
+  .slide-inner .header-text p {
+    margin-top: 50px;
+    margin-bottom: 35px;
+
+  }
+
+}
+
